@@ -1,0 +1,82 @@
+/* 
+
+--- Vzhled pro velke screeny --- 
+
+*/
+
+/* Lokalni helpery */
+
+.hide-on-screen {
+  position: absolute;
+  top: -200px;
+}
+
+/* Konstrukcni elementy */
+
+.content, .nav, .side, .logo {
+	margin-bottom: 1.5em;	
+}
+
+/* Navigace */
+
+.nav {  
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;	
+	}	
+}
+
+/* Polozka navigace */
+
+.nav-item {
+  display: block;
+  border-bottom: 1px solid #fff;
+  background: #333;
+  padding: 1em 1em;
+  text-decoration: none;
+  text-align: center;
+  height: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+b .nav-item,
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  font-weight: normal;
+  color: #fff;
+}
+
+.nav li:last-child .nav-item {
+  border-bottom: none;
+}	
+
+/* Paticka */
+
+.foot {
+  clear: both;
+  padding: 3em 30px;
+  background-color: #ccc;
+  color: #999;
+}
+
+.foot p {
+  margin-bottom: 0;
+}
+
+/* Fotogalerie */
+
+.photogallery {
+  padding: 15px 0 0 15px;
+  background: #ccc;
+  margin-bottom: 1.5em;
+}
+
+.photogallery .photo {
+  margin: 0 10px 10px 0;
+  width: 120px;
+  float: left;
+}
