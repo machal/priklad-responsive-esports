@@ -1,0 +1,55 @@
+/* 
+
+--- Layout - pro siroke displeje --- 
+
+*/
+.content img,
+.side img {
+  max-width: 100%;
+  height: auto;
+}
+.content table,
+.side table {
+  width: 100%;
+}
+body {
+  background: #ccc;
+}
+.container {
+  position: relative;
+  margin: 3em 5%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  color: 0px 0px 1em rgba(0, 0, 0, 0.5);
+}
+.logo {
+  padding: 30px 3%;
+  margin: 0;
+}
+.content {
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 54%;
+}
+.side {
+  float: right;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 34%;
+}
+.nav li {
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  border-left: 1px solid #fff;
+  border-bottom: none;
+}
+.nav li:first-child .nav-item {
+  border-left: none;
+}
