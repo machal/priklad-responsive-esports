@@ -62,7 +62,15 @@
         
         <p>
           <a class="fancybox" src="img/kovarik.jpg">
-            <img src="img/kovarik.jpg" alt="Jan Kovařík" height="400">
+            <div data-picture data-alt="Jan Kovařík">
+                  <div data-src="img/kovarik_small.jpg"></div>
+                  <div data-src="img/kovarik.jpg" data-media="(min-width: 481px)"></div>
+
+                  <noscript>
+                      <img src="img/kovarik_small.jpg" alt="Jan Kovařík" height="400">
+                  </noscript>
+              </div>            
+            
           </a>
         </p>
         
@@ -187,6 +195,7 @@
       
     </div><!-- .container -->
     
+    <script type="text/javascript" src="js/picturefill.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>   
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>    
     <script type="text/javascript" src="js/index.js"></script>    
